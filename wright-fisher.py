@@ -146,8 +146,9 @@ pop_example1 = population(1000, (0.5, 0.5, 0.5, 0.5, 0.5, 0.5), (1, 1, 1, 1))
 pop_example1.freqTraj(100)
 
 #For my project, I am interested in seeing how the fitnesses of the mutants affect
-#the loss of the D allele. Let's see the distribution of how many generations
-#it takes for the D allele to reach 80% of its initial frequency
+#the loss of the D allele. For example, let's see the distribution of how many 
+#generations it takes for the D allele to reach 80% of its initial frequency with
+#neutral mutations
 
 N = 10000
 murates = (1, 1, 1, 1, 1, 1)
@@ -167,6 +168,7 @@ for sample in populations:
 plt.xlabel('Number of generations before D decaying to 0.8N')
 plt.ylabel('Number of populations')
 plt.hist(nb_generations)
+
 
 #The simulation can be very long when using 'realistic' parameters like mutation rates of 10e-6
  
