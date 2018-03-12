@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 
 class Population:
     """
-    Instantiate as example_pop = population(N, murates, fitnesses) 
+    Instantiate as example_pop = Population(N, murates, fitnesses) 
     where N is an integer and murates/fitnesses are tuples
     The indexes of the tuples are important and must be given like this:
         (muE, muA, muF, muFA, muFE, muAE)
