@@ -8,4 +8,4 @@ import wrightfisher as wf
 
 pop_example1 = wf.Population(1000, (0.5, 0.5, 0.5, 0.5, 0.5, 0.5), (1, 1, 1, 1))
 pop_example1.freqTraj(100)
-wf.plt.show() #If you want to see the plot when you run this script in terminal 
+#wf.plt.show() #might need this if you run from terminal
