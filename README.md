@@ -40,9 +40,9 @@ fitnesses = (1, 1, 1, 1) # (wD, wE, wA, wF) all neutral in this case
 #Plot frequency trajectory for 100 generations
 pop_instance1 = wf.Population(N, murates, fitnesses)
 pop_instance1,freqTraj(100)
-```
 
 #Evolve population for 100 generations and see details
 pop_instance2 = wf.Population(N, murates, fitnesses)
 pop_instance2.evolve(100)
 print(pop_instance2.pop['ND']), pop_instance2.pop['NA'] pop_instance2.pop['NE'] pop_instance2.pop['NF'])
+```
