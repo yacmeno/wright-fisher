@@ -46,3 +46,5 @@ pop_instance2 = wf.Population(N, murates, fitnesses)
 pop_instance2.evolve(100)
 print(pop_instance2.pop['ND']), pop_instance2.pop['NA'], pop_instance2.pop['NE'], pop_instance2.pop['NF'])
 ```
+# wright-fisher
+Wright-fisher simulation considering 4 alleles, drift, mutations and selection. Adapted to a personal project.
