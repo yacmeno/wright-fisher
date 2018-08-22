@@ -29,7 +29,7 @@ Import the main class from ```wrightfisher.py``` to instantiate a population and
 Instantiating the class requires: population size, mutation rates tuple and selection coefficient tuple (in the form of (1 + s)). The tuples indexes are important and should be given in a certain order.
 
 Example:
-clone the repo > go to the directory > $mkvirualenv wrightfisher && workon wrightfisher > $pip3 install numpy matplotlib > open jupyter-notebook
+clone the repo > go to the directory > $pip3 install numpy matplotlib > open jupyter-notebook
 ```python3
 import wrightfisher as wf
 
