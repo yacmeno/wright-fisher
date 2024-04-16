@@ -2,11 +2,12 @@
 ## Overview
 Simulations to analyze evolution of a simplified haploid population.
 For more details about Wright-Fisher simulations or population genetics, see :
-* https://bit.ly/2Lf3FWc (PDF)
-* https://bit.ly/2OQsBpp (PDF)
-* https://fla.st/2nUg1tJ (PDF)
-* https://bit.ly/2wi1CLx (Youtube video)
-* https://bit.ly/2PqDgYM (Youtube playlist)
+* [Tutorial on Theoretical Population Genetics, Joe Felsenstein
+](https://web.archive.org/web/20221001021120/https://evolution.gs.washington.edu/gecco.pdf) (PDF)
+* [Pop Gen 1, Taylor](https://web.archive.org/web/20181030051958/http://www2.hawaii.edu/~taylor/z652/PopGen1.pdf) (PDF)
+* https://fla.st/2nUg1tJ (PDF, dead link 🤷)
+* [Evolution in Finite Population, Jeff Gore](https://www.youtube.com/watch?v=KLrPm-BEEOI) (Youtube video)
+* [Statistical Physics of Biological Evolution, J Krug](https://www.youtube.com/watch?v=XSdg2U_TYyY&list=PLMxUX2BDY1G1p_925tb9zVTjar6bRYLjs) (Youtube playlist)
 
 The ressources go into much more detail than what I used to create this repo.
 
